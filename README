@@ -1,0 +1,11 @@
+
+This is a DBF reader which reads Visual Fox Pro DBF format with Memo field.
+
+
+#Usage:
+#   rec = readDbf('test.dbf')
+    for line in rec:
+        print line['@cloumnname']
+
+
+        
